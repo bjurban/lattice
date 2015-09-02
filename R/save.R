@@ -32,8 +32,6 @@
 #' # make twice as big as on screen
 #' lsave("sp.png", sp, scale=2)
 #' }
-
-# wrapper to save lattice plots
 lsave <-
   function (filename = default_name(plot), plot, 
             device = default_device(filename), path = NULL, scale = 1, 
